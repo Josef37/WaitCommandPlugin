@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaitCommandPlugin", "WaitCommandPlugin\WaitCommandPlugin.vcxproj", "{171A2378-987D-4004-A31C-E84493B60BF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{171A2378-987D-4004-A31C-E84493B60BF4}.Release|x64.ActiveCfg = Release|x64
+		{171A2378-987D-4004-A31C-E84493B60BF4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECB32588-BDD6-41C4-9CCC-01DE01F32123}
+	EndGlobalSection
+EndGlobal
