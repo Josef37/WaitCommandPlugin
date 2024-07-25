@@ -2,7 +2,7 @@
 #include "WaitCommandPlugin.h"
 
 
-BAKKESMOD_PLUGIN(WaitCommandPlugin, "write a plugin description here", plugin_version, PLUGINTYPE_FREEPLAY);
+BAKKESMOD_PLUGIN(WaitCommandPlugin, "WaitCommandPlugin", plugin_version, PLUGINTYPE_FREEPLAY);
 
 std::shared_ptr<CVarManagerWrapper> _globalCvarManager;
 
