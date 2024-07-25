@@ -76,6 +76,15 @@ void WaitCommandPlugin::onLoad()
 			}
 		}
 	);
+
+	gameWrapper->HookEvent(
+		"Function TAGame.GameInfo_Soccar_TA.StartDefaultGameEvent",
+		[this](std::string eventName)
+		{
+			input.reset();
+			inputs.clear();
+		}
+	);
 }
 
 float WaitCommandPlugin::GetTimeInSeconds()
